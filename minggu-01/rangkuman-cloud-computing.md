@@ -31,7 +31,7 @@ Teknologi ini memungkinkan terdapatnya situs layanan web yang bisa dikomersialka
 ## Konsep serupa
 Komputasi awan menggunakan konsep dari komputasi utilitas untuk menyediakan metrik untuk layanan yang digunakan. Komputasi awan mencoba mengatasi QoS (kualitas layanan) dan  masalah keandalan model komputasi jaringan lainnya .
 
-<h2>Komputasi awan berbagi karakteristik dengan:<h2>
+Komputasi awan berbagi karakteristik dengan:
  1.	Model klien-server - Komputasi klien-server mengacu secara luas pada aplikasi terdistribusi apa pun  yang membedakan antara penyedia layanan (server) dan pemohon layanan (klien).  
 2.	Biro komputer – Biro  layanan yang  menyediakan layanan komputer, terutama dari tahun 1960-an hingga 1980-an.
 3.	Komputasi grid – Suatu bentuk komputasi terdistribusi dan paralel, di mana 'komputer super dan virtual' terdiri dari sekelompok komputer  jaringan  yang digabungkan secara longgar yang  bertindak bersama untuk melakukan tugas-tugas yang sangat besar.
