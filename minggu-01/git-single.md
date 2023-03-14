@@ -1,210 +1,211 @@
-# 01.installasi Git pada Windows
+# Instalasi Git
+
+# 01. Instalasi Git Pada Windows
 
 sebelum kita menginstall Git di windows, kita sudah harus memiliki editor teks. Bisa menggunakan [Notepad++](https://notepad-plus-plus.org/) atau [Visual Studion Code](https://code.visualstudio.com/) atau [Vim](https://www.vim.org/).
 
 1. Setelah download [Git](https://git-scm.com/downloads), lalu open file installernya yang telah di download, lalu akan muncul lisensi, selanjutnya klik **Next**.
 
-![install-01]
+![install-01](https://github.com/T41K41/tekn-cloud-computing/blob/cbd4d4058f983aeca852ef9e0229fcad9954127c/minggu-01/gambar/git-single/install-01.png)
 
 2. Kemudian pilih folder untuk penyimpanan Git, Secara default Git akan tersimpan di folder C:\Program Files\Git, setelah itu klik **Next**.
 
-![install-02]
+![install-02](https://github.com/T41K41/tekn-cloud-computing/blob/cbd4d4058f983aeca852ef9e0229fcad9954127c/minggu-01/gambar/git-single/install-02.png)
 
 3. Lalu klik **Next**, biarkan settingan Git di setting secara default.
 
-![install-03]
+![install-03](https://github.com/T41K41/tekn-cloud-computing/blob/cbd4d4058f983aeca852ef9e0229fcad9954127c/minggu-01/gambar/git-single/install-03.png)
 
 4. Klik **Next**.
 
-![install-04]
+![install-04](https://github.com/T41K41/tekn-cloud-computing/blob/cbd4d4058f983aeca852ef9e0229fcad9954127c/minggu-01/gambar/git-single/install-04.png)
 
 5. Lalu pilih editor teks yang ingin digunakan (Disini saya menggunakan editor teks Visual Code Code), lalu klik **Next**.
 
-![install-05]
+![install-05](https://github.com/T41K41/tekn-cloud-computing/blob/cbd4d4058f983aeca852ef9e0229fcad9954127c/minggu-01/gambar/git-single/install-05.png)
 
 6. Checklist pada pilihan **Let Git Decide** selanjutnya klik **Next**.
 
-![install-06]
+![install-06](https://github.com/T41K41/tekn-cloud-computing/blob/cbd4d4058f983aeca852ef9e0229fcad9954127c/minggu-01/gambar/git-single/install-06.png)
 
 7. Selanjutnya checklist pada pilihan **Git from the command line.....**, lalu klik **Next**.
 
-![install-07]
+![install-07](https://github.com/T41K41/tekn-cloud-computing/blob/cbd4d4058f983aeca852ef9e0229fcad9954127c/minggu-01/gambar/git-single/install-07.png)
 
 8. Selanjutnya checklist pada pilihan **Use Bundled OpenSSH**, lalu klik **Next**.
 
-![install-08]
+![install-08](https://github.com/T41K41/tekn-cloud-computing/blob/cbd4d4058f983aeca852ef9e0229fcad9954127c/minggu-01/gambar/git-single/install-08.png)
 
 9. Checklist pada pilihan **Use the OpenSSH library**, klik **Next**.
 
-![install-09]
+![install-09](https://github.com/T41K41/tekn-cloud-computing/blob/cbd4d4058f983aeca852ef9e0229fcad9954127c/minggu-01/gambar/git-single/install-09.png)
 
 10. Checklist pada pilihan **Checkout windows-style....**, klik **Next**.
 
-![install-10]
+![install-10](https://github.com/T41K41/tekn-cloud-computing/blob/cbd4d4058f983aeca852ef9e0229fcad9954127c/minggu-01/gambar/git-single/install-10.png)
 
 11. Checklist lagi pada pilihan **Use MinTTY...**, klik **Next**.
 
-![install-11]
+![install-11](https://github.com/T41K41/tekn-cloud-computing/blob/cbd4d4058f983aeca852ef9e0229fcad9954127c/minggu-01/gambar/git-single/install-12.png)
 
 12. Checklist pada pilihan **Default**, klik **Next**.
 
-![install-12]
+![install-12](https://github.com/T41K41/tekn-cloud-computing/blob/cbd4d4058f983aeca852ef9e0229fcad9954127c/minggu-01/gambar/git-single/install-13.png)
 
 13. Lalu pilih **Git Credential Manager**, **Next**.
 
-![install-13]
+![install-13](https://github.com/T41K41/tekn-cloud-computing/blob/cbd4d4058f983aeca852ef9e0229fcad9954127c/minggu-01/gambar/git-single/install-14.png)
 
 14. Pilih **Enable file system caching**, **Next**.
 
-![install-14]
+![install-14](https://github.com/T41K41/tekn-cloud-computing/blob/cbd4d4058f983aeca852ef9e0229fcad9954127c/minggu-01/gambar/git-single/install-15.png)
 
 15. Checklist pada **Enable experimental.....**, klik **Next**.
 
-![install-15]
+![install-15](https://github.com/T41K41/tekn-cloud-computing/blob/cbd4d4058f983aeca852ef9e0229fcad9954127c/minggu-01/gambar/git-single/install-16.png)
 
 16. Tunggu hingga proses installasi berhasil.
 
-![install-16]
+![install-16](https://github.com/T41K41/tekn-cloud-computing/blob/cbd4d4058f983aeca852ef9e0229fcad9954127c/minggu-01/gambar/git-single/install-17.png)
 
-17. Lalu klik **Finish**.
+17. Lalu klik  **Finish**.
 
-![install-17]
+![install-17](https://github.com/T41K41/tekn-cloud-computing/blob/cbd4d4058f983aeca852ef9e0229fcad9954127c/minggu-01/gambar/git-single/install-18.png)
 
 18. Jika berhasil terinstal, maka pada windows terdapat aplikasi **Git**.
 
-![install-18]
+![install-18](https://github.com/T41K41/tekn-cloud-computing/blob/cbd4d4058f983aeca852ef9e0229fcad9954127c/minggu-01/gambar/git-single/open-git.png)
 
 19. Tampilan jika kita menggunakan aplikasi **Git-Bash**.
 
-![install-19]
+![install-19](https://github.com/T41K41/tekn-cloud-computing/blob/cbd4d4058f983aeca852ef9e0229fcad9954127c/minggu-01/gambar/git-single/gitbash.png)
 
 20. Tampilan jika kita menggunakan aplikasi **Git-Gui**.
 
-![install-20]
+![install-20](https://github.com/T41K41/tekn-cloud-computing/blob/cbd4d4058f983aeca852ef9e0229fcad9954127c/minggu-01/gambar/git-single/gitgui.png)
 
 21. Cek versi Git dengan cara ketikkan pada CMD **git --version**.
 
-![install-21]
+![install-21](https://github.com/T41K41/tekn-cloud-computing/blob/cbd4d4058f983aeca852ef9e0229fcad9954127c/minggu-01/gambar/git-single/versi-git.png)
 
+# 2.Konfigurasi Git
+Ada 2 hal yang perlu dikonfigurasi yaitu username dan email. Konfigurasi harus disesuaikan dengan nama serta email yang digunakan untuk mendaftar di GitHub. Dengan cara sebagai berikut:
 
-# 02. Konfigurasi Git Pada Windows
-Konfigurasi Git pada windows dapat dilakukan dengan cara mengetikkan kode dibawah ini di CMD
-```
-$ git config --global user.name "AnggitaAlbiantara
-$ git config --global user.email anggita.albiantara@students.utdi.ac.id
-```
-![konfig1]
+![01](https://github.com/T41K41/tekn-cloud-computing/blob/cbd4d4058f983aeca852ef9e0229fcad9954127c/minggu-01/gambar/git-single/konfig-01.png)
 
-Selanjutnya jika kalian ingin melihat hasil dari konfigurasi diatas maka kalian dapat mengetikkan code berikut di CMD
-```
-$ git config --lists
-```
-![konfig2]
+![02](https://github.com/T41K41/tekn-cloud-computing/blob/cbd4d4058f983aeca852ef9e0229fcad9954127c/minggu-01/gambar/git-single/konfig-02.png)
 
-Langkah ini cukup dilakukan sekali saja, kecuali jika kalian ingin melakukan perubahan nama dan email.
+# 3.Mengelola Repo Sendiri di Account Sendiri
+## Membuat Repo
 
-# 03. Membuat Repo Di Account Git Kita
-  Untuk membuat repo, dapat menggunakan langkah-langkah berikut :
-  1.  Klik tanda **+** pada bagian atas dekat profil Git kita, klik lalu pilih **New repository**
-  
-  ![repo1]
-  
-  2. Isikan nama owner, nama repo, keterangan, pilih settingan repo untuk private atau public, checklist untuk add README.md atau tidak, serta pilih lisensi.
+1. Buka web [Github] (https://github.com/). kemudian masuk ke akun untuk membuat repository baru.
 
-![repo2]
-  
-  3. Klik **Create Repository**
-Setelah langkah-langkah tersebut berhasil, maaka repo akan dibuat dan bisa diakses dengan menggunakan pola ```https://github.com/username/reponame```. Pada repo tersebut, hanya akan muncul 1 file, yaitu LICENSE. Jika kalian memilih membuat README pada saat langkah ke 2, juga akan muncul README.md. Ada atau tidak ada README.md tidak mempunyai efek apapun pada langkah ini.
+![01](https://github.com/T41K41/tekn-cloud-computing/blob/cbd4d4058f983aeca852ef9e0229fcad9954127c/minggu-01/gambar/git-single/membuat-repo.png)
 
-![repo3]
-    
-# Clone Repo
-Untuk clone repo, kalian dapat mengetikkan code dibawah pada CMD,
-```git clone https://github.com/UserName/NameRepository```
-![clone]
+2.	Membuat repository baru dengan nama tekn-cloud-computing, jika sudah selesai klik create repository.
 
-Sehingga hasil clonenya akan masuk ke penyimpanan lokal komputer kita.
-![clone2]
+![02](https://github.com/T41K41/tekn-cloud-computing/blob/cbd4d4058f983aeca852ef9e0229fcad9954127c/minggu-01/gambar/git-single/membuat-repo-02.png)
+
+3. Maka akan muncul repo baru
+
+![03](https://github.com/T41K41/tekn-cloud-computing/blob/cbd4d4058f983aeca852ef9e0229fcad9954127c/minggu-01/gambar/git-single/membuat-repo-03.png)
+
+4. Setelah langkah-langkah tersebut, repo akan dibuat dan bisa diakses menggunakan pola https://github.com/username/reponame
+
+![04](https://github.com/T41K41/tekn-cloud-computing/blob/8d44fdc0b488d2a5291e876bd0bb5b9a5e8c777e/minggu-01/gambar/git-single/membuat-repo-04.png)
+
+## Clone repository
+
+Proses clone adalah proses untuk menduplikasikan remote repo di GitHub ke komputer lokal. Untuk melakukan proses clone dengan cara sebagai berikut:
+
+![01](https://github.com/T41K41/tekn-cloud-computing/blob/8d44fdc0b488d2a5291e876bd0bb5b9a5e8c777e/minggu-01/gambar/git-single/clone-01.png)
+
+![02](https://github.com/T41K41/tekn-cloud-computing/blob/8d44fdc0b488d2a5291e876bd0bb5b9a5e8c777e/minggu-01/gambar/git-single/clone-02.png)
+
+Setelah perintah ini, di direktori tekn-cloud-computing akan disimpan isi repo yang sama dengan di GitHub. Perbedaannya, di komputer lokal terdapat direktori .git yang digunakan secara internal oleh Git.
 
 # Mengelola Repo
-  Setelah melakukan ```clone``` ke penyimpanan lokal komputer kita, semua manipulasi konten dilakukan di komputer lokal dan hasilnya akan di-**push** ke remote repo di GitHub. Dengan demikian, jangan berganti-ganti remote lokal, sekali dibuat disitu, tetap berada disitu. Jika kehilangan repo lokal, maka harus melakukan clone ulang ke direktori yang bersih (kosong) setelah itu baru lakukan pengelolaan repo. Beberapa hal yang biasanya dilakukan seperti berikut ini.
 
-# Mengubah Isi - Push Tanpa Branching dan Merging
+### Mengubah Isi - Push Tanpa Branching dan Merging
+
 Perubahan isi bisa terjadi karena satu atau kombinasi beberapa hal berikut:
-  1. File dihapus
-  2. File diedit
-  3. Membuat file / direktori baru
-  4. Menghapus direktori
-Untuk kasus-kasus tersebut, lakukan perubahan di komputer lokal, setelah itu push ke repo. 
-![isi]
-![push]
+1.	File dihapus
+2.	File diedit
+3.	Membuat file / direktori baru
+4.	Menghapus direktori
 
-# Mengubah Isi dengan Branching and Merging
-Dengan menggunakan cara ini, setiap kali akan melakukan perubaham, perubahan itu dilakukan di komputer lokal dengan membuat suatu *cabang* yang nantinya digunakan untuk menampung perubahan-perubahan tersebut. Setelah itu, cabang itu yang akan dikirim ke repo GitHub untuk dimintai review kemudian digabungkan (```merge```) ke master. Secara umum, repo yang dibuat biasanya sudah mempunyai satu branch yang disebut dengan ```master```. Cara ini lebih aman, terstruktur, terkendali, dan mempunyai history yang lebih baik. Jika perubahan yang kita buat sudah terlalu kacau dan kita menyesal, maka ada cara untuk "membersihkan" repo lokal kita. Secara umum, langkahnya adalah sebagai berikut :
+Untuk kasus-kasus tersebut, lakukan perubahan di komputer lokal, setelah itu push ke repo.
 
-1. Buat branch untuk menampung perubahan-perubahan
-2. Lakukan perubahan-perubahan
-3. Add dan commit perubahan-perubahan tersebut ke branch
-4. Kembali ke repo master
-5. Buat pull request di GitHub
-6. Merge pull request di GitHub
-7. Merge branch untuk menampung perubahan-perubahan tersebut ke master.
-8. Selesai.
+![01](https://github.com/T41K41/tekn-cloud-computing/blob/8d44fdc0b488d2a5291e876bd0bb5b9a5e8c777e/minggu-01/gambar/git-single/mengubah-isi-01.png)
 
-![isi1]
-![isi2]
-![isi3]
+### Mengubah Isi dengan Branching and Merging
 
-Setelah itu, kirim *pull request (PR)*, selanjutnya kita bisa langsung merge :
-![pull]
+1.	Buat branch untuk menampung perubahan-perubahan
+2.	Lakukan perubahan-perubahan
+3.	Add dan commit perubahan-perubahan tersebut ke branch
+4.	Kembali ke repo master
+5.	Buat pull request di GitHub
+6.	Merge pull request di GitHub
+7.	Merge branch untuk menampung perubahan-perubahan tersebut ke master.
+8.	Selesai.
 
-Setelah itu, ```Confirm Merge```, branch yang kita kirimkan tadi sudah dimasukkan ke branch ```master```. Setelah itu, merge di komputer lokal kita :
+![01](https://github.com/T41K41/tekn-cloud-computing/blob/8d44fdc0b488d2a5291e876bd0bb5b9a5e8c777e/minggu-01/gambar/git-single/mengubah-isi-02.png)
 
-![merge1]
+### Membuat pull request kemudian merge pull
 
-![merge2]
+![02](https://github.com/T41K41/tekn-cloud-computing/blob/8d44fdc0b488d2a5291e876bd0bb5b9a5e8c777e/minggu-01/gambar/git-single/mengubah-isi-03.png)
 
-![merge3]
+![03](https://github.com/T41K41/tekn-cloud-computing/blob/8d44fdc0b488d2a5291e876bd0bb5b9a5e8c777e/minggu-01/gambar/git-single/mengubah-isi-04.png)
 
-![merge4]
+![04](https://github.com/T41K41/tekn-cloud-computing/blob/8d44fdc0b488d2a5291e876bd0bb5b9a5e8c777e/minggu-01/gambar/git-single/mengubah-isi-05.png)
 
-# Sinkronisasi
+![05](https://github.com/T41K41/tekn-cloud-computing/blob/8d44fdc0b488d2a5291e876bd0bb5b9a5e8c777e/minggu-01/gambar/git-single/mengubah-isi-06.png)
 
-Suatu saat, bisa saja terjadi kita menggunakan komputer lain dan mengedit repo melalui repo lokal di komputer lain, setelah itu pindah ke kamputer lain lagi. Saat itu, kita perlu melakukan sinkronisasi ke kemputer lokal. Perintah untuk sinkronisasi adalah:
+![06](https://github.com/T41K41/tekn-cloud-computing/blob/8d44fdc0b488d2a5291e876bd0bb5b9a5e8c777e/minggu-01/gambar/git-single/mengubah-isi-07.png)
 
-```
-$ git pull
-```
-![pull5]
+### Sinkronisasi
 
-Perintah ini dikerjakan di direktori tempat repo lokal kita berada.
+![01](https://github.com/T41K41/tekn-cloud-computing/blob/8d44fdc0b488d2a5291e876bd0bb5b9a5e8c777e/minggu-01/gambar/git-single/sinkronisasi.png)
 
-# Membatalkan Perubahan
+### Membatalkan Perubahan
 
-Praktik yang baik adalah membuat *branch* pada saat kita akan melakukan perubahan-perubahan. Jika perubahan-perubahan yang kita lakukan sudah sedemikian kacaunya, maka kita bisa membuat supaya perubahan-perubahan yang kacau tersebut hilang dan kembali ke kondisi bersih seperti semula.
+![01](https://github.com/T41K41/tekn-cloud-computing/blob/8d44fdc0b488d2a5291e876bd0bb5b9a5e8c777e/minggu-01/gambar/git-single/membatalkan-perubahan.png)
 
-![batal1]
+### Undo Commit Terakhir
 
-![batal2]
+Suatu saat, mungkin kita sudah terlanjur mem-push perubahan ke repo GitHub, setelah itu kita baru menyadari bahwa perubahan tersebut salah. Untuk itu, kita bisa melakukan git revert.
 
-# Undo Commit Terakhir
+![01](https://github.com/T41K41/tekn-cloud-computing/blob/8d44fdc0b488d2a5291e876bd0bb5b9a5e8c777e/minggu-01/gambar/git-single/undo-commit.png)
 
-Suatu saat, mungkin kita sudah terlanjur mem-*push* perubahan ke repo GitHub, setelah itu kita baru menyadari bahwa perubahan tersebut salah. Untuk itu, kita bisa melakukan ```git revert```.
+![02](https://github.com/T41K41/tekn-cloud-computing/blob/8d44fdc0b488d2a5291e876bd0bb5b9a5e8c777e/minggu-01/gambar/git-single/undo-commit-1.png)
 
-![undo1]
+Contoh di atas adalah contoh untuk mengubah README.md dengan beberapa commit. Setelh itu, kita akan mengembalikan ke posisi terakhir sebelum commit terakhir.
 
-![undo2]
+Saat git revert HEAD maka akan terbuka Editor. Pada editor tersebut kita bisa mengetikkan pesan revert ( = pesan commit untuk pembatalan). Setelah selesai, simpan lalu push ke repo.
 
-Selanjutnya, tinggal di-*push* ke repo GitHub.
+![03](https://github.com/T41K41/tekn-cloud-computing/blob/8d44fdc0b488d2a5291e876bd0bb5b9a5e8c777e/minggu-01/gambar/git-single/undo-commit-2.png)
 
-![undo3]
+![04](https://github.com/T41K41/tekn-cloud-computing/blob/8d44fdc0b488d2a5291e876bd0bb5b9a5e8c777e/minggu-01/gambar/git-single/undo-commit-3.png)
 
-Untuk kembali ke perubahan pada saat yang sudah lama, yang perlu dilakukan adalah melakukan ```git revert <posisi>``` kemudian mengedit secara manual kemudian push ke repo.
+Jika commit sudah dilakukan, tetapi belum di-push ke repo GitHub (masih berada di lokal), cara membatalkannya:
 
-![revert1]
+![05](https://github.com/T41K41/tekn-cloud-computing/blob/8d44fdc0b488d2a5291e876bd0bb5b9a5e8c777e/minggu-01/gambar/git-single/undo-commit-4.png)
 
-![revert2]
+![06](https://github.com/T41K41/tekn-cloud-computing/blob/8d44fdc0b488d2a5291e876bd0bb5b9a5e8c777e/minggu-01/gambar/git-single/undo-commit-05.png)
 
-![revert3]
+Untuk kembali ke perubahan pada saat yang sudah lama, yang perlu dilakukan adalah melakukan ```git revert <posisi>``` kemudian mengedit secara manual kemudian push ke repo. Contohnya disini Saya membuat beberapa kali perubahan pada README.md:
 
-![revert4]
+![07](https://github.com/T41K41/tekn-cloud-computing/blob/8d44fdc0b488d2a5291e876bd0bb5b9a5e8c777e/minggu-01/gambar/git-single/revert.png)
+
+![08](https://github.com/T41K41/tekn-cloud-computing/blob/8d44fdc0b488d2a5291e876bd0bb5b9a5e8c777e/minggu-01/gambar/git-single/revert-2.png)
+
+Setelah itu, jika dilihat pada file, akan muncul tambahan untuk memudahkan meng-edit. File ini harus di-resolve terlebih dahulu. Edit file tersebut, setelah itu simpan.
+
+
+![09](https://github.com/T41K41/tekn-cloud-computing/blob/8d44fdc0b488d2a5291e876bd0bb5b9a5e8c777e/minggu-01/gambar/git-single/revert-03.png)
+
+Setelah itu, lanjutkan proses revert. Saat ```git revert --continue``` akan muncul Editor kembali lalu isikan pesan revert.
+
+![10](https://github.com/T41K41/tekn-cloud-computing/blob/8d44fdc0b488d2a5291e876bd0bb5b9a5e8c777e/minggu-01/gambar/git-single/revert-04.png)
+
+![11](https://github.com/T41K41/tekn-cloud-computing/blob/8d44fdc0b488d2a5291e876bd0bb5b9a5e8c777e/minggu-01/gambar/git-single/revert-05.png)
