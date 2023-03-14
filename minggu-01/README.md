@@ -1,11 +1,11 @@
-# My FIrst Xproject 
+# minggu-01
 
-Ini isi Project pertama
+Gambar
 
-ini isi 1
+Git single
 
-ini isi 2 setelah revert
+Git kolaborsi
 
-ini isi 3
+Rangkuman
 
 
