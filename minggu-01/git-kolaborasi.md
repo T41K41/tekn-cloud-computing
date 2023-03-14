@@ -55,7 +55,7 @@ Sebelum melakukan perubahan, pastikan:
   
   ![kolab9](https://github.com/T41K41/tekn-cloud-computing/blob/b99f4c6e104ea4c10c399b3f1878931efc22999b/minggu-01/gambar/git-kolaborasi/kolab-09.png)
   
-  ![kolab10](https://github.com/T41K41/tekn-cloud-computing/blob/b99f4c6e104ea4c10c399b3f1878931efc22999b/minggu-01/gambar/git-kolaborasi/kolab-010.png)
+  ![kolab10](https://github.com/T41K41/tekn-cloud-computing/blob/b99f4c6e104ea4c10c399b3f1878931efc22999b/minggu-01/gambar/git-kolaborasi/kolab-10.png)
   
   5. Setelah itu, buka halaman Web dari repo kontributor https://github.com/saputrayudit/tekn-cloud-computing. Pada halaman tersebut akan ditampilkan isi yang kita push.
   ![kolab11](https://github.com/T41K41/tekn-cloud-computing/blob/b99f4c6e104ea4c10c399b3f1878931efc22999b/minggu-01/gambar/git-kolaborasi/kolab-11.png)
