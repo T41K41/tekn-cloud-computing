@@ -15,11 +15,15 @@ Software as a Service (SaaS) : It is sometimes called to as “on-demand softwar
 
 # Saas(Software as a Service)
 Dengan model ini, satu versi aplikasi, dengan satu konfigurasi digunakan untuk semua pelanggan. Aplikasi ini diinstal pada beberapa mesin untuk mendukung skalabilitas (disebut penskalaan horizontal). Dalam beberapa kasus, versi kedua aplikasi disiapkan untuk menawarkan sekelompok pelanggan tertentu dengan akses ke versi pra-rilis aplikasi untuk tujuan pengujian. Dalam model tradisional ini, setiap versi aplikasi didasarkan pada kode unik. Meskipun pengecualian, beberapa solusi SaaS tidak menggunakan multitenancy, untuk mengelola sejumlah besar pelanggan secara hemat biaya. Apakah multitenancy adalah komponen yang diperlukan untuk perangkat lunak sebagai layanan adalah topik kontroversi. 
- ![saas]
- Ada dua varietas utama SaaS: 
-1.	Vertical SaaS A Software yang menjawab kebutuhan industri tertentu (misalnya, perangkat lunak untuk industri perawatan kesehatan, pertanian, real estat, keuangan). 
-2.	SaaS Horisontal Produk yang berfokus pada kategori perangkat lunak (pemasaran, penjualan, alat pengembang,
 
+ ![saas](https://github.com/T41K41/tekn-cloud-computing/blob/03a58ff9399808b60338b6e8b5b7e7b8ccaee089/minggu-02/saas.webp)
+ Ada dua varietas utama SaaS: 
+1.	Vertical SaaS A Software 
+    yang menjawab kebutuhan industri tertentu (misalnya, perangkat lunak untuk industri perawatan kesehatan, pertanian, real estat, keuangan). 
+3.	SaaS Horisontal
+    Produk yang berfokus pada kategori perangkat lunak (pemasaran, penjualan, alat pengembang, dan perancangan)
+    
+![hor-ver](https://github.com/T41K41/tekn-cloud-computing/blob/03a58ff9399808b60338b6e8b5b7e7b8ccaee089/minggu-02/ver-hor.jpg)
 
 # Kelebihan & Kekurangan
 kelebihan
