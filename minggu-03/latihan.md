@@ -21,31 +21,19 @@ quick start deploy
 ![qickstart](https://github.com/T41K41/tekn-cloud-computing/blob/6ad6c8c9cf96f4d3976989bb31ab89438a0cd4e4/minggu-03/latihan/conectrepo.png)
 
 8
-![qickstart](https://github.com/T41K41/tekn-cloud-computing/blob/6ad6c8c9cf96f4d3976989bb31ab89438a0cd4e4/minggu-03/latihan/install-nodejs.png)
+![qickstart](https://github.com/T41K41/tekn-cloud-computing/blob/6ad6c8c9cf96f4d3976989bb31ab89438a0cd4e4/minggu-03/latihan/conectingto%20cycling.png)
 
 9
-![qickstart](https://github.com/T41K41/tekn-cloud-computing/blob/6ad6c8c9cf96f4d3976989bb31ab89438a0cd4e4/minggu-03/latihan/configjson.png)
+![qickstart](https://github.com/T41K41/tekn-cloud-computing/blob/6ad6c8c9cf96f4d3976989bb31ab89438a0cd4e4/minggu-03/latihan/conectingto%20cycling.png)
 
 10
-![qickstart](https://github.com/T41K41/tekn-cloud-computing/blob/6ad6c8c9cf96f4d3976989bb31ab89438a0cd4e4/minggu-03/latihan/installexpress.png)
-
-11
-![qickstart](https://github.com/T41K41/tekn-cloud-computing/blob/6ad6c8c9cf96f4d3976989bb31ab89438a0cd4e4/minggu-03/latihan/configjson2.png)
-
-12
-![qickstart](https://github.com/T41K41/tekn-cloud-computing/blob/6ad6c8c9cf96f4d3976989bb31ab89438a0cd4e4/minggu-03/latihan/conectingto%20cycling.png)
-
-13
-![qickstart](https://github.com/T41K41/tekn-cloud-computing/blob/6ad6c8c9cf96f4d3976989bb31ab89438a0cd4e4/minggu-03/latihan/conectingto%20cycling.png)
-
-14
 ![qickstart](https://github.com/T41K41/tekn-cloud-computing/blob/6ad6c8c9cf96f4d3976989bb31ab89438a0cd4e4/minggu-03/latihan/cyclingconnection.png)
 
-15
+11
 ![qickstart](https://github.com/T41K41/tekn-cloud-computing/blob/6ad6c8c9cf96f4d3976989bb31ab89438a0cd4e4/minggu-03/latihan/dasboardmyapp.png)
 
-16
+12
 ![qickstart](https://github.com/T41K41/tekn-cloud-computing/blob/6ad6c8c9cf96f4d3976989bb31ab89438a0cd4e4/minggu-03/latihan/tampilanhelloworld.png)
 
-17
+13
 ![qickstart](https://github.com/T41K41/tekn-cloud-computing/blob/6ad6c8c9cf96f4d3976989bb31ab89438a0cd4e4/minggu-03/latihan/githubexpresshelloworld.png)
