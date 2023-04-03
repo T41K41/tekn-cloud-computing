@@ -3,4 +3,4 @@
 
 [Latihan](minggu-03/latihan.md)
 
-[Tugas]((minggu-03/tugas.md)
+[Tugas](minggu-03/tugas.md)
