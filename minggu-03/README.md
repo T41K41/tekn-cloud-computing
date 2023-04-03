@@ -1,6 +1,6 @@
 # Minggu-03
 ## Platform as a Service
 
-Latihan 
+[Latihan](minggu-03/latihan.md)
 
-tugas 
+[Tugas]((minggu-03/tugas.md)
