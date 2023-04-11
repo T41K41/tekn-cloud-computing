@@ -33,7 +33,7 @@ t41k41@t41k41kom:~$ sudo su - stack
 stack@t41k41kom:~$
 ```
 
-![1](image\switchstack.png)
+![1](https://github.com/T41K41/tekn-cloud-computing/blob/f8153d477dfe31b115a427894b8d6070cd4fb390/minggu-04/image/switchstack.png)
 
 ### Step 3: Download DevStack
 
@@ -43,7 +43,7 @@ Clone Destack deployment code from Github.
 stack@t41k41kom:~$ git clone https://git.openstack.org/openstack-dev/devstack
 ```
 
-![2](image\git.png)
+![2]((https://github.com/T41K41/tekn-cloud-computing/blob/f8153d477dfe31b115a427894b8d6070cd4fb390/minggu-04/image/git.png))
 Create a local.conf file with 4 passwords and Host IP address.
 
 ```bash
@@ -51,7 +51,7 @@ stack@t41k41kom:~$ cd devstack
 stack@t41k41kom:~/devstack$ nano local.conf
 ```
 
-![3](image\localconf.png)
+![3](https://github.com/T41K41/tekn-cloud-computing/blob/f8153d477dfe31b115a427894b8d6070cd4fb390/minggu-04/image/localconf.png)
 
 ### Step 4: Start Openstack Deployment on Ubuntu 20.04.5 with DevStack
 
@@ -64,14 +64,6 @@ stack@t41k41kom:~/devstack$ FORCE=yes ./stack.sh
 DevStack will install;
 This will take a 15 – 20 minutes, largely depending on the speed of your internet connection. At the end of the installation process, you should see output like this:
 
-```bash
-This is your host IP address: 10.0.2.15
-This is your host IPv6 address: 2401:ee00:1040:100:2c8d:5afa:b7e:c0a0
-Horizon is now available at http://10.0.2.15/dashboard
-Keystone is serving at http://10.0.2.15/identity/
+![4](https://github.com/T41K41/tekn-cloud-computing/blob/f8153d477dfe31b115a427894b8d6070cd4fb390/minggu-04/image/gagalinstall.png)
 
-The default users are: admin and demo
-The password: StrongAdminSecret
-```
-
-![4](image\gagalinstall.png)
+system program problem detected 
