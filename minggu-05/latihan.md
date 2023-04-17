@@ -13,10 +13,10 @@ t41k41@t41k41kom:~$ sudo apt-get install gradle
 ```
 
 Setelah itu cek apakah sudah terinstall dengan baik.<br>
-![1](image\installasi\install-01.png)<br>
-![2](image\installasi\install-02.png)<br>
-![3](image\installasi\install-03.png)<br>
-![4](image\installasi\install-04.png)<br>
+![1](image/installasi/install-01.png)<br>
+![2](image/installasi/install-02.png)<br>
+![3](image/installasi/install-03.png)<br>
+![4](image/installasi/install-04.png)<br>
 
 ### Instalasi OFBiz
 
@@ -30,7 +30,7 @@ t41k41@t41k41kom:~/apache-ofbiz-18.12.07$ sudo ./gradlew cleanAll loadDefault
 ```
 
 Tunggu sampai proses instalasi selesai.<br>
-![5](image\installasi\install-05.png)<br>
+![5](image/installasi/install-05.png)<br>
 
 ### Akses OFBiz
 
@@ -48,7 +48,7 @@ Catalog Manager: https://SERVER_IP:8443/catalog<br>
 E-Commerce: https://SERVER_IP:8443/ecommerce<br>
 WebTools: https://SERVER_IP:8443/webtools<br>
 
-![6](image\installasi\akses.png)<br>
-![7](image\installasi\akses-1.png)<br><br>
-![8](image\installasi\akses-2.png)<br>
-![9](image\installasi\akses-4.png)<br>
+![6](image/installasi/akses-1.png)<br>
+![7](image/installasi/akses-1.png)<br><br>
+![8](image/installasi/akses-2.png)<br>
+![9](image/installasi/akses-3.png)<br>
