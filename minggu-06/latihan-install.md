@@ -6,8 +6,8 @@
 
 2. Install GO dan Cek versinya.
 
-<div align="center"><img src="gambar/latihan/instalasi-go(1).jpg" width="500px"></div><br>
-<div align="center"><img src="gambar/latihan/instalasi-go(2).jpg" width="500px"></div>
+<div align="center"><img src="gambar/installasi/install-golang.png" width="500px"></div><br>
+<div align="center"><img src="gambar/installasi/cekversion-golang.png" width="500px"></div>
 
 ## Install MySQL
 
@@ -15,9 +15,8 @@
 
 2. Install MySQL dan Cek versinya.
 
-<div align="center"><img src="gambar/latihan/instalasi-mysql(1).jpg" width="500px"></div><br>
-<div align="center"><img src="gambar/latihan/instalasi-mysql(2).jpg" width="500px"></div><br>
-<div align="center"><img src="gambar/latihan/instalasi-mysql(3).jpg" width="500px"></div>
+<div align="center"><img src="gambar/installasi/install-mysql.png" width="500px"></div><br>
+<div align="center"><img src="gambar/installasi/cekversion-mysql.png" width="500px"></div><br>
 
 ## Install MongoDB
 
@@ -25,5 +24,5 @@
 
 2. Install MongoDB dan Cek versinya.
 
-<div align="center"><img src="gambar/latihan/instalasi-mongodb(1).jpg" width="500px"></div><br>
-<div align="center"><img src="gambar/latihan/instalasi-mongodb(2).jpg" width="500px"></div>
+<div align="center"><img src="gambar/installasi/install-mongodb.png" width="500px"></div><br>
+<div align="center"><img src="gambar/installasi/cekversion-mongodb.png" width="500px"></div>
