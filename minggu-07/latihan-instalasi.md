@@ -26,4 +26,4 @@ solusi
 <div align="center"><img src="image/latihan/installasi/10.png" width="500px"></div><br>
 <div align="center"><img src="image/latihan/installasi/11.png" width="500px"></div><br>
 
-4. Selanjutnya [Get Started - Docker](latihan-get-started.md)<br>
+4. Selanjutnya [Get Started - Docker](latihan-Get-Started.md)<br>
