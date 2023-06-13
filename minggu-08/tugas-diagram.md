@@ -1,7 +1,7 @@
 # Diagram - Docker Compose
 
 Diagram:<br>
-<div align="center"><img src="gambar/tugas/diagram.jpg"></div>
+<div align="center"><img src="https://github.com/T41K41/tekn-cloud-computing/blob/fdc7cefd03e05203bda470e2f364418c83afbe4e/minggu-08/image/Diagram_Docker.png"></div>
 
 Penjelasan:<br>
 - Docker image: Image yang dapat kita build atau pull melalui Docker Regitery (Docker Hub).
