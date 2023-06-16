@@ -19,11 +19,13 @@ You will need all of the following to complete this lab:
 
 Use the following command to clone the lab’s repo from GitHub (you can click the command or manually type it). This will make a copy of the lab’s repo in a new sub-directory called ```linux_tweet_app```.
 
-<div><img src="gambar/screenshot-2.jpg"></div><br>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/174a7c246921c6099f0019166bfd1ce9249fa9fe/minggu-09/gambar/gambar%20(3).png"></div><br>
 
 ### Make sure you have a DockerID
 
 If you do not have a DockerID (a free login used to access Docker Hub), please visit [Docker Hub](https://hub.docker.com/) and register for one. You will need this for later steps.
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/174a7c246921c6099f0019166bfd1ce9249fa9fe/minggu-09/gambar/gambar%20(2).png"></div><br>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/174a7c246921c6099f0019166bfd1ce9249fa9fe/minggu-09/gambar/gambar%20(1).png"></div><br>
 
 ## Task 1: Run some simple Docker containers 
 
@@ -36,23 +38,21 @@ In this section you’ll try each of those options and see how Docker manages th
 
 ### Run a single task in an Alpine Linux container
 
-<div><img src="gambar/screenshot-3.jpg"></div>
-<div><img src="gambar/screenshot-4.jpg"></div>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/174a7c246921c6099f0019166bfd1ce9249fa9fe/minggu-09/gambar/gambar%20(5).png"></div><br>
 
 ### Run an interactive Ubuntu container
 
-<div><img src="gambar/screenshot-5.jpg"></div>
-<div><img src="gambar/screenshot-6.jpg"></div>
-<div><img src="gambar/screenshot-7.jpg"></div>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/174a7c246921c6099f0019166bfd1ce9249fa9fe/minggu-09/gambar/gambar%20(6).png"></div><br>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/174a7c246921c6099f0019166bfd1ce9249fa9fe/minggu-09/gambar/gambar%20(7).png"></div><br>
 
 ### Run a background MySQL container
 
-<div><img src="gambar/screenshot-8.jpg"></div>
-<div><img src="gambar/screenshot-9.jpg"></div>
-<div><img src="gambar/screenshot-10.jpg"></div>
-<div><img src="gambar/screenshot-11.jpg"></div>
-<div><img src="gambar/screenshot-12.jpg"></div>
-<div><img src="gambar/screenshot-13.jpg"></div>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/174a7c246921c6099f0019166bfd1ce9249fa9fe/minggu-09/gambar/gambar%20(8).png"></div><br>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/174a7c246921c6099f0019166bfd1ce9249fa9fe/minggu-09/gambar/gambar%20(9).png"></div><br>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/174a7c246921c6099f0019166bfd1ce9249fa9fe/minggu-09/gambar/gambar%20(10).png"></div><br>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/174a7c246921c6099f0019166bfd1ce9249fa9fe/minggu-09/gambar/gambar%20(11).png"></div><br>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/174a7c246921c6099f0019166bfd1ce9249fa9fe/minggu-09/gambar/gambar%20(12).png"></div><br>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/174a7c246921c6099f0019166bfd1ce9249fa9fe/minggu-09/gambar/gambar%20(13).png"></div><br>
 
 ## Task 2: Package and run a custom app using Docker 
 
@@ -62,43 +62,44 @@ The Dockerfile syntax is straightforward. In this task, we’re going to create 
 
 ### Build a simple website image
 
-<div><img src="gambar/screenshot-14.jpg"></div>
-<div><img src="gambar/screenshot-15.jpg"></div>
-<div><img src="gambar/screenshot-16.jpg"></div>
-<div><img src="gambar/screenshot-17.jpg"></div>
-<div><img src="gambar/screenshot-18.jpg"></div>
-<div><img src="gambar/screenshot-19.jpg"></div>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/174a7c246921c6099f0019166bfd1ce9249fa9fe/minggu-09/gambar/gambar%20(14).png"></div><br>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/174a7c246921c6099f0019166bfd1ce9249fa9fe/minggu-09/gambar/gambar%20(15).png"></div><br>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/174a7c246921c6099f0019166bfd1ce9249fa9fe/minggu-09/gambar/gambar%20(16).png"></div><br>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/174a7c246921c6099f0019166bfd1ce9249fa9fe/minggu-09/gambar/gambar%20(17).png"></div><br>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/174a7c246921c6099f0019166bfd1ce9249fa9fe/minggu-09/gambar/gambar%20(18).png"></div><br>
 
 ## Task 3: Modify a Running Website
 
 ### Start our web app with a bind mount
 
-<div><img src="gambar/screenshot-20.jpg"></div>
-<div><img src="gambar/screenshot-21.jpg"></div>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/174a7c246921c6099f0019166bfd1ce9249fa9fe/minggu-09/gambar/gambar%20(19).png"></div><br>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/174a7c246921c6099f0019166bfd1ce9249fa9fe/minggu-09/gambar/gambar%20(20).png"></div><br>
 
 ### Modify the running website
 
-<div><img src="gambar/screenshot-22.jpg"></div>
-<div><img src="gambar/screenshot-23.jpg"></div>
-<div><img src="gambar/screenshot-24.jpg"></div>
-<div><img src="gambar/screenshot-25.jpg"></div>
-<div><img src="gambar/screenshot-26.jpg"></div>
-<div><img src="gambar/screenshot-27.jpg"></div>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/174a7c246921c6099f0019166bfd1ce9249fa9fe/minggu-09/gambar/gambar%20(21).png"></div><br>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/174a7c246921c6099f0019166bfd1ce9249fa9fe/minggu-09/gambar/gambar%20(22).png"></div><br>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/174a7c246921c6099f0019166bfd1ce9249fa9fe/minggu-09/gambar/gambar%20(23).png"></div><br>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/174a7c246921c6099f0019166bfd1ce9249fa9fe/minggu-09/gambar/gambar%20(24).png"></div><br>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/174a7c246921c6099f0019166bfd1ce9249fa9fe/minggu-09/gambar/gambar%20(25).png"></div><br>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/174a7c246921c6099f0019166bfd1ce9249fa9fe/minggu-09/gambar/gambar%20(26).png"></div><br>
 
 ### Update the image
 
-<div><img src="gambar/screenshot-28.jpg"></div>
-<div><img src="gambar/screenshot-29.jpg"></div>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/174a7c246921c6099f0019166bfd1ce9249fa9fe/minggu-09/gambar/gambar%20(26).png"></div><br>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/174a7c246921c6099f0019166bfd1ce9249fa9fe/minggu-09/gambar/gambar%20(27).png"></div><br>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/174a7c246921c6099f0019166bfd1ce9249fa9fe/minggu-09/gambar/gambar%20(28).png"></div><br>
 
 ### Test the new version
 
-<div><img src="gambar/screenshot-30.jpg"></div>
-<div><img src="gambar/screenshot-31.jpg"></div>
-<div><img src="gambar/screenshot-32.jpg"></div>
-<div><img src="gambar/screenshot-33.jpg"></div>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/174a7c246921c6099f0019166bfd1ce9249fa9fe/minggu-09/gambar/gambar%20(29).png"></div><br>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/174a7c246921c6099f0019166bfd1ce9249fa9fe/minggu-09/gambar/gambar%20(30).png"></div><br>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/174a7c246921c6099f0019166bfd1ce9249fa9fe/minggu-09/gambar/gambar%20(31).png"></div><br>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/174a7c246921c6099f0019166bfd1ce9249fa9fe/minggu-09/gambar/gambar%20(32).png"></div><br>
 
 ### Push your images to Docker Hub
 
-<div><img src="gambar/screenshot-34.jpg"></div>
-<div><img src="gambar/screenshot-35.jpg"></div>
-<div><img src="gambar/screenshot-36.jpg"></div>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/174a7c246921c6099f0019166bfd1ce9249fa9fe/minggu-09/gambar/gambar%20(33).png"></div><br>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/174a7c246921c6099f0019166bfd1ce9249fa9fe/minggu-09/gambar/gambar%20(34).png"></div><br>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/174a7c246921c6099f0019166bfd1ce9249fa9fe/minggu-09/gambar/gambar%20(35).png"></div><br>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/174a7c246921c6099f0019166bfd1ce9249fa9fe/minggu-09/gambar/gambar%20(36).png"></div><br>
