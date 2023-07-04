@@ -18,18 +18,21 @@ Laporan beserta gambar dibawah ini adalah hasil praktikum melalui [Application C
 
 Let’s get started by first cloning the demo code repository, changing the working directory, and checking the ```demo``` branch out.
 
-<div><img src="gambar/ss1.png"></div>
-<div><img src="gambar/ss2.png"></div>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/a41b5f52ff6a50326984f92fec9863439c55aa77/minggu-11/gambar/imageS1.png"></div>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/a41b5f52ff6a50326984f92fec9863439c55aa77/minggu-11/gambar/imageS2.png"></div>
 
 ## Step 0: Basic Link Extractor Script
 
 Checkout the ```step0``` branch and list files in it. The ```linkextractor.py``` file is the interesting one here, so let’s look at its contents:
 
-<div><img src="gambar/ss3.png"></div>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/a41b5f52ff6a50326984f92fec9863439c55aa77/minggu-11/gambar/imageS3.png"></div>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/a41b5f52ff6a50326984f92fec9863439c55aa77/minggu-11/gambar/imageS4.png"></div>
 
 However, this seemingly simple script might not be the easiest one to run on a machine that does not meet its requirements. The ```README.md``` file suggests how to run it, so let’s give it a try. When we tried to execute it as a script, we got the ```Permission denied``` error. Let’s check the current permissions on this file. This current permission ```-rw-r--r--``` indicates that the script is not set to be executable. We can either change it by running ```chmod a+x linkextractor.py``` or run it as a Python program instead of a self-executing script as illustrated below:
 
-<div><img src="gambar/ss4.png"></div>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/a41b5f52ff6a50326984f92fec9863439c55aa77/minggu-11/gambar/imageS5.png"></div>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/a41b5f52ff6a50326984f92fec9863439c55aa77/minggu-11/gambar/imageS6.png"></div>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/a41b5f52ff6a50326984f92fec9863439c55aa77/minggu-11/gambar/imageS7.png"></div>
 
 Here we got the first ```ImportError``` message because we are missing the third-party package needed by the script. We can install that Python package (and potentially other missing packages) using one of the many techniques to make it work, but it is too much work for such a simple script, which might not be obvious for those who are not familiar with Python’s ecosystem.
 
@@ -39,19 +42,21 @@ This is where application containerization tools like Docker come in handy. In t
 
 Checkout the ```step1``` branch and list files in it. We have added one new file (i.e., ```Dockerfile```) in this step. Let’s look into its contents:
 
-<div><img src="gambar/ss5.png"></div>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/a41b5f52ff6a50326984f92fec9863439c55aa77/minggu-11/gambar/imageA1.png"></div>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/a41b5f52ff6a50326984f92fec9863439c55aa77/minggu-11/gambar/imageA2.png"></div>
 
 Using this ```Dockerfile``` we can prepare a Docker image for this script. So far, we have just described how we want our Docker image to be like, but didn’t really build one. So let’s do just that:
 
-<div><img src="gambar/ss6.png"></div>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/a41b5f52ff6a50326984f92fec9863439c55aa77/minggu-11/gambar/imageA3.png"></div>
 
 We have created a Docker image named ```linkextractor:step1``` based on the ```Dockerfile``` illustrated above. If the build was successful, we should be able to see it in the list of image:
 
-<div><img src="gambar/ss7.png"></div>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/a41b5f52ff6a50326984f92fec9863439c55aa77/minggu-11/gambar/imageA4.png"></div>
 
 This image should have all the necessary ingredients packaged in it to run the script anywhere on a machine that supports Docker. Now, let’s run a one-off container with this image and extract links from some live web pages. This outputs a single link that is present in the simple ```example.com``` web page. Let’s try it on a web page with more links in it:
 
-<div><img src="gambar/ss8.png"></div>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/a41b5f52ff6a50326984f92fec9863439c55aa77/minggu-11/gambar/imageA5.png"></div>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/a41b5f52ff6a50326984f92fec9863439c55aa77/minggu-11/gambar/imageA6.png"></div>
 
 In the next step we will make these changes and some other improvements to the script.
 
@@ -59,23 +64,24 @@ In the next step we will make these changes and some other improvements to the s
 
 Checkout the step2 branch and list files in it.
 
-<div><img src="gambar/ss9.png"></div>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/a41b5f52ff6a50326984f92fec9863439c55aa77/minggu-11/gambar/imageB1.png"></div>
 
 In this step the ```linkextractor.py``` script is updated with the following functional changes. Let’s have a look at the updated script.
 
-<div><img src="gambar/ss10.png"></div>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/a41b5f52ff6a50326984f92fec9863439c55aa77/minggu-11/gambar/imageB2.png"></div>
 
 Let’s have a look at the updated script. We have used a new tag ```linkextractor:step2``` for this image so that we don’t overwrite the image from the ```step1``` to illustrate that they can co-exist and containers can be run using either of these images.
 
-<div><img src="gambar/ss11.png"></div>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/a41b5f52ff6a50326984f92fec9863439c55aa77/minggu-11/gambar/imageB3.png"></div>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/a41b5f52ff6a50326984f92fec9863439c55aa77/minggu-11/gambar/imageB4.png"></div>
 
 Running a one-off container using the ```linkextractor:step2``` image should now yield an improved output:
 
-<div><img src="gambar/ss12.png"></div>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/a41b5f52ff6a50326984f92fec9863439c55aa77/minggu-11/gambar/imageB5.png"></div>
 
 Running a container using the previous image linkextractor:step1 should still result in the old output:
 
-<div><img src="gambar/ss13.png"></div>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/a41b5f52ff6a50326984f92fec9863439c55aa77/minggu-11/gambar/imageB6.png"></div>
 
 So far, we have learned how to containerize a script with its necessary dependencies to make it more portable. We have also learned how to make changes in the application and build different variants of Docker images that can co-exist. In the next step we will build a web service that will utilize this script and will make the service run inside a Docker container.
 
@@ -83,20 +89,20 @@ So far, we have learned how to containerize a script with its necessary dependen
 
 Checkout the ```step3``` branch and list files in it. Let’s first look at the ```Dockerfile``` for changes:
 
-<div><img src="gambar/ss14.png"></div>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/a41b5f52ff6a50326984f92fec9863439c55aa77/minggu-11/gambar/imageC1.png"></div>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/a41b5f52ff6a50326984f92fec9863439c55aa77/minggu-11/gambar/imageC2.png"></div>
 
 The ```linkextractor.py``` module remains unchanged in this step, so let’s look into the newly added ```main.py``` file:
 
-<div><img src="gambar/ss15.png"></div>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/a41b5f52ff6a50326984f92fec9863439c55aa77/minggu-11/gambar/imageC3.png"></div>
 
 It’s time to build a new image with these changes in place:
 
-<div><img src="gambar/ss16.png"></div>
-<div><img src="gambar/ss17.png"></div>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/a41b5f52ff6a50326984f92fec9863439c55aa77/minggu-11/gambar/imageC4.png"></div>
 
 Then run the container in detached mode (```-d``` flag) so that the terminal is available for other commands while the container is still running. Note that we are mapping the port ```5000``` of the container with the ```5000``` of the host (using ```-p 5000:5000``` argument) to make it accessible from the host. We are also assigning a name (```--name=linkextractor```) to the container to make it easier to see logs and kill or remove the container.
 
-<div><img src="gambar/ss18.png"></div>
+<div><img src="https://github.com/T41K41/tekn-cloud-computing/blob/a41b5f52ff6a50326984f92fec9863439c55aa77/minggu-11/gambar/imageC5.png"></div>
 
 We can now make an HTTP request in the form ```/api/<url>``` to talk to this server and fetch the response containing extracted links. Since the container is running in detached mode, so we can’t see what’s happening inside, but we can see logs using the name ```linkextractor``` we assigned to our container:
 
