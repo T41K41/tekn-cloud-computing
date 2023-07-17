@@ -1,4 +1,4 @@
 # Minggu-12
-## Learn Kubernetes Basics
+## Learn Kubernetes intro
 
 [Learn Kubernetes Basics](learn-kubernetes-basics.md)
