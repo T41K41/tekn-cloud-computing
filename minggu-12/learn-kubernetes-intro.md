@@ -1,6 +1,6 @@
-# Learn Kubernetes Basics
+# Learn Kubernetes Intro
 
-Laporan beserta gambar dibawah ini adalah hasil praktikum melalui [Learn Kubernetes Basics](https://kubernetes.io/docs/tutorials/kubernetes-basics/), sehingga untuk materi dan penjelasan lebih detailnya dapat diakses melalui web tersebut.
+Laporan beserta gambar dibawah ini adalah hasil praktikum melalui [Learn Kubernetes Intro](https://kubernetes.io/docs/tutorials/kubernetes-basics/), sehingga untuk materi dan penjelasan lebih detailnya dapat diakses melalui web tersebut.
 
 ### Tutorials
 
